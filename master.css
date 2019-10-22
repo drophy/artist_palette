@@ -1,0 +1,23 @@
+.flexbox-v {
+   display: flex;
+   flex-direction: column;
+}
+
+.flexbox-h {
+   display: flex;
+}
+
+.color {
+   height: 100px;
+   width: 100px;
+   margin: 10px;
+
+   border-radius: 20%;
+   border: 1px solid black;
+   background-color: grey; /* default */
+
+   display: flex;
+   /* text-align: center; */
+   align-items: center;
+   justify-content: center;
+}
